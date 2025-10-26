@@ -28,3 +28,7 @@ function rollDice() {
   setTimeout(() => {
     dice1.classList.remove("shake");
     dice2.classList.remove("shake");
+
+//generate random numbers for dice
+    const random1 = Math.floor(Math.random() * 6) + 1;
+    const random2 = Math.floor(Math.random() * 6) + 1;
