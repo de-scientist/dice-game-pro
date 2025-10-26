@@ -65,3 +65,6 @@ function resetGame() {
 //display scores as 0
  document.getElementById("score1").textContent = "Score: 0";
   document.getElementById("score2").textContent = "Score: 0";
+
+//result message
+   result.textContent = "Click Roll to Start";
