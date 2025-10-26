@@ -47,3 +47,7 @@ function rollDice() {
     } else {
       result.textContent = "It's a Draw 🤝";
     }
+
+//update score display
+    document.getElementById("score1").textContent = `Score: ${score1}`;
+    document.getElementById("score2").textContent = `Score: ${score2}`;
