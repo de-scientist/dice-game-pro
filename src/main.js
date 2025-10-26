@@ -13,7 +13,13 @@ resetBtn.addEventListener("click", resetGame);
 
 //function to roll dice
 function rollDice() {
-  
+
   // Disable button briefly
   rollBtn.disabled = true;
   result.textContent = "Rolling... 🎲";
+
+//add animation to dice images
+  const dice1 = document.querySelectorAll("img")[0];
+  const dice2 = document.querySelectorAll("img")[1];
+  dice1.classList.add("shake");
+  dice2.classList.add("shake");  
