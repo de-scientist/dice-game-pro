@@ -51,3 +51,8 @@ function rollDice() {
 //update score display
     document.getElementById("score1").textContent = `Score: ${score1}`;
     document.getElementById("score2").textContent = `Score: ${score2}`;
+
+//re-enable roll button
+      rollBtn.disabled = false;
+  }, 1000);
+}
