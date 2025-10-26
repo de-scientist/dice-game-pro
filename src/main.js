@@ -32,3 +32,7 @@ function rollDice() {
 //generate random numbers for dice
     const random1 = Math.floor(Math.random() * 6) + 1;
     const random2 = Math.floor(Math.random() * 6) + 1;
+
+//update dice images based on random numbers
+    dice1.setAttribute("src", `images/dice${random1}.png`);
+    dice2.setAttribute("src", `images/dice${random2}.png`);
