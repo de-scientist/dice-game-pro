@@ -36,3 +36,14 @@ function rollDice() {
 //update dice images based on random numbers
     dice1.setAttribute("src", `images/dice${random1}.png`);
     dice2.setAttribute("src", `images/dice${random2}.png`);
+
+//determine winner and update scores
+    if (random1 > random2) {
+      score1++;
+      result.textContent = "🚩 Player 1 Wins this round!";
+    } else if (random2 > random1) {
+      score2++;
+      result.textContent = "Player 2 Wins this round! 🚩";
+    } else {
+      result.textContent = "It's a Draw 🤝";
+    }
