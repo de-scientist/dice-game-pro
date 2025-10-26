@@ -6,3 +6,7 @@ let score2 = 0;
 const rollBtn = document.getElementById("rollBtn");
 const resetBtn = document.getElementById("resetBtn");
 const result = document.getElementById("result");
+
+//add event listener to roll button
+rollBtn.addEventListener("click", rollDice);
+resetBtn.addEventListener("click", resetGame);
