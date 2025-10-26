@@ -68,3 +68,8 @@ function resetGame() {
 
 //result message
    result.textContent = "Click Roll to Start";
+
+//reset dice images to initial state
+     document.querySelectorAll("img")[0].setAttribute("src", "images/dice1.png");
+  document.querySelectorAll("img")[1].setAttribute("src", "images/dice2.png");
+}
