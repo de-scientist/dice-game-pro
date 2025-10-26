@@ -56,3 +56,12 @@ function rollDice() {
       rollBtn.disabled = false;
   }, 1000);
 }
+
+//function to reset game
+function resetGame() {
+  score1 = 0;
+  score2 = 0;
+
+//display scores as 0
+ document.getElementById("score1").textContent = "Score: 0";
+  document.getElementById("score2").textContent = "Score: 0";
