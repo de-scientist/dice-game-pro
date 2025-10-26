@@ -23,3 +23,8 @@ function rollDice() {
   const dice2 = document.querySelectorAll("img")[1];
   dice1.classList.add("shake");
   dice2.classList.add("shake");  
+
+//set timeout to simulate rolling effect
+  setTimeout(() => {
+    dice1.classList.remove("shake");
+    dice2.classList.remove("shake");
