@@ -1,3 +1,8 @@
 //initialize player scores
 let score1 = 0;
 let score2 = 0;
+
+//add DOM elements
+const rollBtn = document.getElementById("rollBtn");
+const resetBtn = document.getElementById("resetBtn");
+const result = document.getElementById("result");
