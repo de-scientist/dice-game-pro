@@ -13,6 +13,7 @@ resetBtn.addEventListener("click", resetGame);
 
 //function to roll dice
 function rollDice() {
+  
   // Disable button briefly
   rollBtn.disabled = true;
   result.textContent = "Rolling... 🎲";
